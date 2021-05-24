@@ -5,11 +5,9 @@ Home: https://github.com/ikosmidis/enrichwith
 
 Package license: GPL-2 | GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-enrichwith-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides the "enrich" method to enrich list-like R objects with new, relevant components. The current version has methods for enriching objects of class 'family', 'link-glm', 'lm', 'glm' and 'betareg'. The resulting objects preserve their class, so all methods associated with them still apply. The package also provides the 'enriched_glm' function that has the same interface as 'glm' but results in objects of class 'enriched_glm'. In addition to the usual components in a `glm` object, 'enriched_glm' objects carry an object-specific simulate method and functions to compute the scores, the observed and expected information matrix, the first-order bias, as well as model densities, probabilities, and quantiles at arbitrary parameter values. The package can also be used to produce customizable source code templates for the structured implementation of methods to compute new components and enrich arbitrary objects.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-enrichwith` from the `conda-forge` channel can be achieved by addi
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-enrichwith` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
