@@ -1,11 +1,11 @@
-About r-enrichwith
-==================
+About r-enrichwith-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-enrichwith-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ikosmidis/enrichwith
 
 Package license: GPL-2 | GPL-3
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-enrichwith-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides the "enrich" method to enrich list-like R objects with new, relevant components. The current version has methods for enriching objects of class 'family', 'link-glm', 'lm', 'glm' and 'betareg'. The resulting objects preserve their class, so all methods associated with them still apply. The package also provides the 'enriched_glm' function that has the same interface as 'glm' but results in objects of class 'enriched_glm'. In addition to the usual components in a `glm` object, 'enriched_glm' objects carry an object-specific simulate method and functions to compute the scores, the observed and expected information matrix, the first-order bias, as well as model densities, probabilities, and quantiles at arbitrary parameter values. The package can also be used to produce customizable source code templates for the structured implementation of methods to compute new components and enrich arbitrary objects.
 
