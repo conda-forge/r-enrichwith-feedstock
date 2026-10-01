@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/enrichwith_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/enrichwith/enrichwith_{{ version }}.tar.gz
-  sha256: fd1c07136409b40bf8246400ef784bacfe74a8a0db19fa695a80a38b46e46e07
+  sha256: 807e7062c02c72f10d37f77c21e7cda67136b3f7d008208f95b500fe0c9d1b8d
 
 build:
   number: 0
